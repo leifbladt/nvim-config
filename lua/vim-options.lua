@@ -13,3 +13,4 @@ vim.keymap.set("v", "<leader>s", [["hy:%s/\V<C-r>h/<C-r>h/gc<Left><Left><Left>]]
 -- let g:wiki_root = '~/wiki'
 vim.g.wiki_root = '~/wiki'
 
+vim.opt.winborder = 'rounded'
